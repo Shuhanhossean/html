@@ -1,0 +1,2121 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+*{margin: 0%; padding: 0%;}
+body{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+}
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+
+}
+
+p, ol li, ul li, .p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+
+.topbarWrapper {
+    overflow: hidden;
+}
+
+.topBarMain {
+    background: #f5f6f6;
+}
+
+.email {
+    width: 226px;
+    float: left;
+    padding: 15px 7px;
+    color: #333;
+}
+
+span#Call {
+    color: #444;
+    font-weight: 500;
+}
+
+.marker {
+    width: 280px;
+    float: left;
+    padding: 15px 0px;
+    color: #333;
+}
+
+.phone {
+    width: 242px;
+    float: right;
+    padding: 15px;
+    color: #333;
+}
+
+.email i {
+    margin-right: 7px;
+    font-size: 13px;
+    color: #333;
+}
+
+.marker i {
+    margin-right: 9px;
+    font-size: 16px;
+    color: #333;
+}
+
+.phone i {
+    margin-right: 7px;
+    font-size: 15px;
+    color: #333;
+}
+
+
+
+
+
+section#homeslider {
+    background-image: linear-gradient(to right, #1a2c79, #1a2c7991),
+    url(https://corporx.themetags.com/assets/img/banner-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60%;
+}
+
+.primarywrapper {
+    overflow: hidden;
+}
+
+.logo {
+    width: 150px;
+    padding: 22px;
+    float: left;
+}
+
+.Manu {
+    width: 1150px;
+}
+
+ul.mainMenuItem {
+    float: right;
+    list-style: none;
+}
+
+ul.mainMenuItem li {
+    float: left;
+}
+
+ul.mainMenuItem li a {
+    display: block;
+    padding: 30px 26px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+
+
+
+
+.sliderContent {
+    width: 700px;
+    margin-top: 120px;
+    color: white;
+}
+
+.sliderContent h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+span#sliderspan {
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sliderContent p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+
+button#sliderbutton {
+    border: none;
+    margin-bottom: 120px;
+    background: #b60450;
+    color: white;
+    padding: 18px 28px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+
+
+
+
+.sliderbtan {
+    overflow: hidden;
+    margin-left: 262px;
+}
+
+.sliderbtan span {
+    margin-right: 15px;
+    background: red;
+    display: block;
+    width: 200px;
+    height: 50px;
+    float: left;
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 36px;
+    font-size: 19px;
+}
+
+.sliderbtan span:first-child {
+    background-color: #e80566;
+    color: white;
+    transition: 0.6s;
+}
+
+.sliderbtan span:first-child:hover {
+    background-color: rgb(241, 241, 241);
+    color: #333;
+}
+
+.sliderbtan span:nth-child(2) {
+    background-color: rgb(241, 241, 241);
+    color: #333;
+    transition: 0.6s;
+}
+
+.sliderbtan span:nth-child(2):hover {
+    background-color: #e80566;
+    color: white;
+    
+}
+.sliderbtan span:last-child {
+    background-color: white;
+    color: #333;
+    transition: 0.6s;
+}
+
+.sliderbtan span:last-child:hover {
+    background-color: #e80566;
+    color: white;
+    
+}
+
+.sliderbtan span i {
+    margin-right: 12px;
+}
+
+
+
+
+
+section.sectionslider {
+    background: white;
+}
+
+.topsectionsliderWrapper {
+    overflow: hidden;
+}
+
+.sectionslidercontant {
+    text-align: center;
+    margin-top: 70px;
+    color: #827f7f;
+    margin-bottom: 30px;
+}
+
+.sectionslidercontant h1 span {
+    color: #e80566 !important;
+}
+
+.sectionslidercontant h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.sectionssliderImg img {
+    color: #ececec;
+    margin-right: 95px;
+    }
+
+.sectionssliderImg {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+
+.sectionslider2 {
+    border: 1px solid #ddd;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+
+
+
+
+
+.sectionslider2wrapper {
+    overflow: hidden;
+}
+
+.sectionslidercontant2 {
+    margin-top: 220px;
+    width: 550px;
+    float: left;
+}
+
+.sectionslidercontantpast h1 {
+    font-size: 2rem;
+    width: 362px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.sectionslidercontantpast p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #333;
+    width: 484px;
+    line-height: 30px;
+}
+
+.sectionslidercontantpast {overflow: hidden;}
+
+.sectionslidercontantpast ul {
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+.sectionslidercontantpast ul li {
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #737373;
+}
+
+.sectionslidercontantpast ul li i {
+    color: #fb5200;
+    width: 19px;
+}
+
+.sectionslidercontantpast ul li span {
+    color: #6d6d6d;
+    font-weight: 600;
+}
+
+
+button#sectionsliderbtan {
+    border: none;
+    background: #e80566;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 120px;
+}
+
+
+
+
+
+.sectionslidercard {
+    width: 270px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 125px;
+}
+
+.sectionslidercardInfo {
+    width: 235px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background: #0648b3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.sectionslidercardInfo i {
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.sectionslidercardInfo p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.sectionslidercardInfo:first-child {
+    background-color: #0648b3;
+    color: white;
+}
+
+.sectionslidercardInfo:last-child {
+    background-color: #05a677;
+    color: white;
+}
+
+
+.sectionslidercardInfo2 {
+    width: 235px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background: #0648b3;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.sectionslidercardInfo2 i {
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.sectionslidercardInfo2 p {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 17px;
+}
+
+.sectionslidercardInfo2:first-child {
+    background-color: #e80566;
+    color: white;
+}
+
+.sectionslidercardInfo2:last-child {
+    background-color: #1a2c79;
+    color: white;
+}
+
+
+
+
+.sectionslidercard2 {
+    width: 240px;
+    float: left;
+    margin-top: 146px;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+section#blogposts {
+    background: #f5f5f5;
+}
+
+.sectiontitle {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+.sectiontitle h1 {
+    font-size: 31px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.sectiontitle p {
+    font-size: 20px;
+    width: 690px;
+    margin: auto;
+    color: #717171;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+
+
+
+
+
+
+
+
+
+.singlepost {
+    padding: 15px;
+    width: 310px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 17px;
+    background: white;
+    box-shadow: 0px 0px 4px -3px;
+    margin-bottom: 40px;
+}
+
+
+
+.postImg {
+    width: 63px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-top: 35px;
+}
+
+.postImg img {
+    width: 100%;
+}
+
+.postInfo h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.postInfo p {
+    width: 270px;
+    margin: auto;
+    color: #7b7b7b;
+    line-height: 24px;
+    padding-bottom: 35px;
+    letter-spacing: 1.1px;
+}
+
+.bolgpostswrapper {
+    overflow: hidden;
+    columns: 3;
+    margin-top: 55px;
+}
+
+
+
+
+section#sectiontext-lg {
+    background-image: linear-gradient(to right , #3b4c8ef0 30%, #c01167b8),url(https://corporx.themetags.com/assets/img/hero-bg11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sectiontextTitle {
+    padding-top: 120px;
+    text-align: center;
+    color: white;
+}
+
+.sectiontextTitle h1 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.sectiontextTitle p {
+    width: 841px;
+    margin: auto;
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 56px;
+}
+
+.sectiontextwrapper {
+    overflow: hidden;
+    margin-left: 230px;
+}
+
+.singletext {
+    width: 200px;
+    float: left;
+    border: 2px solid white;
+    padding: 10px 5px;
+    border-radius: 48px;
+    margin-right: 20px;
+    margin-bottom: 130px;
+    transition: 0.5s;
+}
+
+.singletext:hover {
+    background-color: white;
+    color: #333;
+}
+
+.singleimg {
+    width: 29px;
+    float: left;
+    padding-right: 6px;
+    margin-top: 10px;
+    padding-left: 22px;
+}
+
+.singleimg img {
+    width: 100%;
+}
+
+.sectiontextInfo {
+    width: 200px;
+    color: white;
+    margin-top: 7px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.singletext:hover .sectiontextInfo {
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.sectionblockpostWrapper {
+    overflow: hidden;
+    columns: 3;
+    margin-top: 25px;
+    padding-bottom: 100px;
+}
+
+.singlesectionblockpost {
+    width: 350px;
+    float: left;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0px 0px 4px -3px;
+    border-radius: 11px 11px 11px 11px;
+}
+
+.blockpostImg {
+    width: 350px;
+    position: relative;
+}
+
+.blockpostImg img {
+    width: 100%;
+}
+
+section#sectionblockpost {
+    background: #f5f5f5;
+}
+
+.blockpostImg-2 {
+    width: 30px;
+    float: left;
+}
+
+.blockpostImg-2 img {
+    width: 100%;
+    border-radius: 100px;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.blockpostInfo {
+    padding: 25px;
+}
+
+.blockpostInfo-4 p {
+    margin-left: 56px;
+    padding-top: 18px;
+    font-size: 13px;
+    color: #616161;
+}
+
+.blockpostInfo-2-1 {
+    float: right;
+    margin-top: 18px;
+}
+
+.blockpostInfo-4 {
+    float: left;
+}
+
+.blockpostInfo-3 {
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+
+.blockpostInfo-2-1 i {
+    float: left;
+    margin-right: 5px;
+    font-size: 11px;
+    color: #5f5f5f;
+    margin-top: 1px;
+}
+
+.blockpostInfo-2-1 p {
+    width: 126px;
+    font-size: 12px;
+    color: #636363;
+}
+
+.blockpostInfo h1 {
+    font-size: 20px;
+    margin-bottom: 13px;
+    margin-top: 25px;
+}
+
+
+.blockposttext-2 p {
+    color: #969696;
+    margin-bottom: 22px;
+    line-height: 22px;
+    width: 281px;
+}
+
+span#spanReadmore\ {
+    font-size: 13px;
+    color: #0648B3 !important;
+}
+
+.blockposttext-2 span i {
+    font-size: 14px;
+    font-weight: 900;
+    transition: 0.4s;
+}
+
+
+.blockposttext-2:hover span i {
+    margin-left: 15px;
+}
+
+
+.sectionlabal {
+    position: absolute;
+    bottom: 20px;
+}
+
+.sectionlabal a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    background: #e80566;
+    padding: 6px;
+    font-weight: 400;
+    font-family: 'Archivo';
+    border-radius: 2px;
+    margin-left: 236px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section#sectionpost2 {
+    background: #000;
+}
+
+.sectiontitle-lg {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.sectiontitle-lg h1 {
+    font-size: 2rem;
+    margin-bottom: 0.7rem;
+}
+
+.sectiontitle-lg p {
+    width: 618px;
+    margin: auto;
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.sectionpost2Wrapper {overflow: hidden;margin-top: 60px;padding-bottom: 30px;}
+
+.singlesectionpost2 {
+    background: white;
+    width: 447px;
+    overflow: hidden;
+    padding: 40px 50px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 26px;
+}
+
+.singlesectionpost2:last-child {
+    margin-right: 0px;
+}
+
+.sectionpost2Info i {
+    font-size: 45px;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.sectionpost2Info p {
+    color: #868282;
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    width: 461px;
+    line-height: 27px;
+}
+
+.sectionpost2Info-2st {
+    overflow: hidden;
+}
+
+.sectionpost2Img {
+    width: 70px;
+    float: left;
+}
+
+.sectionpost2Img img {
+    width: 100%;
+    border-radius: 100px;
+}
+
+.section2postInf-tg {
+    padding-top: 16px;
+    margin-left: 22px;
+    float: left;
+}
+
+.sectionpostIcon2 {
+    float: right;
+    width: 107px;
+    line-height: 21px;
+    padding-top: 16px;
+}
+
+.section2postInf-tg h6 {
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.section2postInf-tg small {
+    color: #929292;
+}
+
+.sectionpostIcon2 span {
+    font-size: 12px;
+    font-family: lighter !important;
+    font-weight: 600;
+    color: #737373;
+}
+
+.sectionpostIcon2 i {
+    color: #f5b759 !important;
+    font-size: 18px;
+}
+
+
+
+
+
+.sectionborder {
+    width: 59px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.sectionborder span {
+    border: 2px solid white;
+    width: 6px;
+    height: 7px;
+    display: block;
+    padding: 2px;
+    margin: 5px;
+    float: left;
+    border-radius: 122px;
+    background: red;
+}
+
+.sectionborder span:last-child {
+    background-color: white;
+    color: white;
+    padding: 1px;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.singlesectionRow {
+    width: 350px;
+    overflow: hidden;
+    background: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 0.35rem;
+    margin-bottom: 130px;
+    box-shadow: 0px 2px 10px -4px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+.singlesectionRow:last-child {
+    margin-right: 0px;
+}
+
+.sectionRowWrapper {
+    overflow: hidden;
+}
+
+.sectionRowImg {
+    width: 110px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.sectionRowImg img {
+    width: 100%;
+    border-radius: 100px;
+    border: 10px solid white;
+}
+
+.sectionRowInfo {
+    padding: 10px;
+}
+
+.sectionRowInfo h1 {
+    text-align: center;
+    font-size: 20px;
+}
+
+p#pspan {
+    color: #2b2b2b;
+}
+
+.sectionRowInfo p {
+    text-align: center;
+    line-height: 23px;
+    width: 257px;
+    margin: auto;
+    padding-top: 20px;
+    color: #707070;
+    padding-bottom: 40px;
+}
+
+.sectionRowIcon {
+    width: 155px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sectionRowIcon i {
+    display: block;
+    float: left;
+    padding: 10px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+section#sectionEmail {
+    background: #f5f5f5;
+}
+
+.EmailWrapper {
+    overflow: hidden;
+    padding-top: 60px;
+}
+
+.singleEmail {
+    text-align: center;
+}
+
+.singleEmail i {
+    font-size: 50px;
+    margin-bottom: 22px;
+}
+
+.singleEmail h1 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.singleEmail p {
+    color: #888;
+    margin-bottom: 16px;
+    font-size: 17px;
+}
+
+.inputtext {
+    width: 500px;
+    float: left;
+    padding-bottom: 200px;
+}
+
+button#subscriberBtn {
+    float: left;
+    padding: 18px 30px;
+    margin-top: 9px;
+    margin-left: 8px;
+    background: #e80566;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 5px;
+    margin-left: 270px;
+}
+
+.inputtext h1 input {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #D1D3E0;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    margin-left: 257px;
+}
+
+
+
+
+
+
+
+
+
+footer#footer {
+    background: #1a2c79;
+}
+
+.fboxWrapper {
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.fbox-lg {
+    width: 344px;
+    float: left;
+    padding: 15px;
+}
+
+.fbox-lg p {
+    color: #d2d2d2;
+    margin-bottom: 20px;
+    width: 339px;
+    line-height: 25px;
+}
+
+.fboxImg {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.ficons a {
+    display: block;
+    padding: 15px 25px;
+    float: left;
+    color: white;
+    width: 20px;
+    height: 20px;
+    background: red;
+    margin-right: 20px;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    padding: 6px;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.ficons a:first-child {
+    background: #00acee;
+    
+}
+
+.ficons a:nth-child(2) {
+    background: #3b5998;
+}
+
+.ficons a:nth-child(3) {
+    background: #FF0000;
+}
+
+.ficons a:last-child {
+    background: #ea4c89;
+
+}
+
+
+
+
+
+.fbox {
+    float: left;
+    width: 255px;
+}
+
+.fbox h5 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+ul.links-vertical {
+    list-style: none;
+    line-height: 35px;
+}
+
+ul.links-vertical li a {
+    text-decoration: none;
+    color: #999;
+}
+
+
+
+
+.copyrightContainer {border-top: 1px solid rebeccapurple;}
+
+.copyrighttext {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #bbbaba;
+}
+
+.copyrighttext span:hover {
+    color: white;
+}
+
+.copyrighttext span {
+    color: #99c;
+}
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wob.css</title>
+    <link rel="stylesheet" href="wob.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header id="header">
+        <div class="topBarMain">
+            <div class="container">
+                <div class="topbarWrapper">
+                    <div class="email"><i class="fa fa-envelope" aria-hidden="true"></i>support@yourdomain.com</div>
+                    <div class="marker"><i class="fa fa-map-marker" aria-hidden="true"></i>Address CA-234/B New York, USA</div>
+                    <div class="phone"><i class="fa fa-phone" aria-hidden="true"></i>Call Now: <span id="Call">883-4565-123456</span></div>
+                    
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+        
+
+
+
+
+
+    </header>
+    <section id="homeslider">
+        <div class="PrimaryMonu">
+            <div class="container">
+                <div class="primarywrapper">
+                    <div class="logo">
+
+                        <img src="image/logo-white (1).jpg" alt="">
+
+                    </div>
+                    <div class="Manu">
+
+                        <ul class="mainMenuItem">
+
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Paces</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">projects</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                            
+
+                        </ul>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="homeslider">
+            <div class="container">
+                <div class="sliderContent">
+                    <span id="sliderspan">For Business Solutions</span>
+                    <h1>Your Most Trusted Business Partner</h1>
+                    <p>Holisticly procrastinate mission-critical convergence with reliable
+                        customer service. Assertively underwhelm idea-sharing for impactful solutions. </p>
+                        <button id="sliderbutton">Get Start Now</button>
+                        
+                </div>
+                
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="topsliderbtan">
+            <div class="container">
+        <div class="sliderbtan">
+                <span><i class="fa fa-bar-chart" aria-hidden="true"></i>Marketing</span>
+                <span><i class="fa fa-btc" aria-hidden="true"></i>Finance</span>
+                <span><i class="fa fa-bullhorn" aria-hidden="true"></i>Consultation</span>
+            
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    </section>
+    <section class="sectionslider">
+        <div class="topsectionslider">
+                <div class="topsectionsliderWrapper">
+                    <div class="container">
+                    <div class="sectionslider1">
+                        <div class="sectionslidercontant">
+                            <h1>Trusted by over <span>4,500+</span> customers, some of them are here</h1>
+
+                        </div>
+                        <div class="sectionssliderImg">
+                                <img src="https://corporx.themetags.com/assets/img/client-logos/logo1.png" alt="">
+                                <img src="https://corporx.themetags.com/assets/img/client-logos/logo4.png" alt="">
+                                <img src="https://corporx.themetags.com/assets/img/client-logos/logo5.png" alt="">
+                                <img src="https://corporx.themetags.com/assets/img/client-logos/logo6.png" alt="">
+                                <img src="https://corporx.themetags.com/assets/img/client-logos/logo7.png" alt="">
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+                    </div>
+                    <div class="sectionslider2">
+                        <div class="sectionslider2wrapper">
+                            <div class="container">
+                                <div class="sectionslidercontant2">
+                                    <div class="sectionslidercontantpast">
+                                        <h1>World Class Service Growth Your Business</h1>
+                                        <p>Convert your emails into tickets and keep them all
+                                             organized in one place. Never leave customers'
+                                              questions unanswered.</p>
+                                    </div>
+                                    <div class="sectionslidercontantpast">
+                                        <ul>
+                                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><span>Creative</span>Websites Design</li>
+                                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><span>Accounting</span>Procedures Guidebook</li>
+                                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><span>Cost</span>Accounting Fundamentals</li>
+                                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i><span>SEO</span>Optimization Services</li>
+                                        </ul>
+                                        <button id="sectionsliderbtan">View more <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                                    </div>
+
+
+                                </div>
+                                <div class="sectionslidercard">
+                                    <div class="sectionslidercardInfo">
+                                        <i class="fa fa-shield" aria-hidden="true"></i>
+                                        <h1>Customer service</h1>
+                                        <p>Create low-effort customer service experiences.</p>
+                                    </div>
+                            
+                                    <div class="sectionslidercardInfo">
+                                        <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+                                        <h1>Predictive service</h1>
+                                        <p>Proactively develop B2B alignments rather.</p>
+                                    </div>
+                                    
+                                </div>
+                                <div class="sectionslidercard2">
+                                    <div class="sectionslidercardInfo2">
+                                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+                                        <h1>Service to sales</h1>
+                                        <p>Progressively brand clicks-and-mortar.</p>
+                                    </div>
+
+                                    <div class="sectionslidercardInfo2">
+                                        <i class="fa fa-ils" aria-hidden="true"></i>
+                                        <h1>Make it simple</h1>
+                                        <p>Competently evolve user friendly technology.</p>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+
+
+                            </div>
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+            
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <section id="blogposts">
+        <div class="container">
+            <div class="sectiontitle">
+                <h1>Best Quality Services</h1>
+                <p>Efficiently aggregate core competencies without maintainable ideas.
+                     Dynamically foster tactical solutions without enabled value.</p>
+
+            </div>
+            <div class="bolgpostswrapper">
+            
+                <div class="singlepost">
+                    <div class="postImg">
+                        <img src="https://corporx.themetags.com/assets/img/icon/icon-2.svg" alt="">
+                    </div>
+                    <div class="postInfo">
+                        <h1>Financial Planning</h1>
+                        <p>You can never go wrong with our own
+                        top-notch dedicated with communities services</p>
+                        
+                    </div>
+                </div>
+                <div class="singlepost">
+                    <div class="postImg">
+                        <img src="https://corporx.themetags.com/assets/img/icon/icon-4.svg" alt="">
+                    </div>
+                    <div class="postInfo">
+                        <h1>Marketing Solutions</h1>
+                        <p>Our VPS hosting plan is fully packed with dedicated IPv6 Internet protocol IP</p>
+                        
+                    </div>
+                </div>
+                <div class="singlepost">
+                    <div class="postImg">
+                        <img src="https://corporx.themetags.com/assets/img/icon/icon-1.svg" alt="">
+                    </div>
+                    <div class="postInfo">
+                        <h1>Business Growth</h1>
+                        <p>We can guarantee an excellent experience and loading time for your successful</p>
+                        
+                    </div>
+                </div>
+                <div class="singlepost">
+                    <div class="postImg">
+                        <img src="https://corporx.themetags.com/assets/img/icon/icon-6.svg" alt="">
+                    </div>
+                    <div class="postInfo">
+                        <h1>Total SEO Solutions</h1>
+                        <p>If you’re not 100% satisfied with Hostlar, we’ll refund your payment no risk</p>
+                        
+                    </div>
+                </div>
+                <div class="singlepost">
+                    <div class="postImg">
+                        <img src="https://corporx.themetags.com/assets/img/icon/icon-3.svg" alt="">
+                    </div>
+                    <div class="postInfo">
+                        <h1>Saving Strategy</h1>
+                        <p>With full root access you will be able to take full control of your server very easy</p>
+                        
+                    </div>
+                </div>
+                <div class="singlepost">
+                    <div class="postImg">
+                        <img src="https://corporx.themetags.com/assets/img/icon/icon-8.svg" alt="">
+                    </div>
+                    <div class="postInfo">
+                        <h1>Business Security</h1>
+                        <p>One of many premium features is a dedicated IP cheapest VPS hosting plan</p>
+                        
+                    </div>
+                </div>
+
+
+
+
+
+            
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <section id="sectiontext-lg">
+        <div class="sectiontext-by">
+            <div class="container">
+                <div class="sectiontextTitle">
+                    <h1>Download Our Business Apps</h1>
+                    <p>Building your Apps helps attract more potential clients. 
+                        Our integrated marketing team will promote enabled internal or work high-impact convergence.</p>
+                </div>
+                <div class="sectiontextwrapper">
+                    <div class="singletext">
+                        <div class="singleimg">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/apple-853-675472.png" alt="">
+                        </div>
+                        <div class="sectiontextInfo">
+                            <p>Download on the</p>
+                            <h3>App Store</h3>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="singletext">
+                        <div class="singleimg">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/apple-853-675472.png" alt="">
+                        </div>
+                        <div class="sectiontextInfo">
+                            <p>Download on the</p>
+                            <h3>Google Play</h3>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="singletext">
+                        <div class="singleimg">
+                            <img src="https://cdn.iconscout.com/icon/free/png-256/apple-853-675472.png" alt="">
+                        </div>
+                        <div class="sectiontextInfo">
+                            <p>Download on the</p>
+                            <h3>Windows</h3>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <section id="sectionblockpost">
+        <div class="sectionblockpost-lg">
+            <div class="container">
+                <div class="sectiontitle">
+                    <h1>Our Latest News</h1>
+                    <p>Dynamically pursue reliable convergence rather than 24/7 process improvements develop end-to-end customer service.</p>
+    
+                </div>
+                <div class="sectionblockpostWrapper">
+                    <div class="singlesectionblockpost">
+                        <div class="blockpostImg">
+                            <img src="https://corporx.themetags.com/assets/img/blog/4.jpg" alt="">
+                            <div class="sectionlabal">
+                                <a href="#">SEO, Analytics</a>
+                            </div>
+                        </div>
+                        <div class="blockpostInfo">
+                            <div class="blockpostInfo-2">
+                                <div class="blockpostInfo-3">
+                                    <div class="blockpostInfo-4">
+                                    <div class="blockpostImg-2">
+                                        <img src="https://corporx.themetags.com/assets/img/clients/client-1.jpg" alt="">
+                                    </div>
+                                    <p> Admin</p>
+                                    </div>
+                                    <div class="blockpostInfo-2-1">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p>15 March 2020</p>
+                                    </div>
+                                </div>
+                                <div class="blockposttext-2">
+                                <h1>Holisticly promote enabled</h1>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                                <span id="spanReadmore ">Read more <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                            </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="singlesectionblockpost">
+                        <div class="blockpostImg">
+                            <img src="https://corporx.themetags.com/assets/img/blog/2.jpg" alt="">
+                            <div class="sectionlabal">
+                                <a href="#">Marketing</a>
+                            </div>
+                        </div>
+                        <div class="blockpostInfo">
+                            <div class="blockpostInfo-2">
+                                <div class="blockpostInfo-3">
+                                    <div class="blockpostInfo-4">
+                                    <div class="blockpostImg-2">
+                                        <img src="https://corporx.themetags.com/assets/img/clients/client-2.jpg" alt="">
+                                    </div>
+                                    <p> Writer</p>
+                                    </div>
+                                    <div class="blockpostInfo-2-1">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p>15 March 2020</p>
+                                    </div>
+                                </div>
+                                <div class="blockposttext-2">
+                                <h1>Authoritatively unleash fully</h1>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                                <span id="spanReadmore ">Read more <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                            </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                    <div class="singlesectionblockpost">
+                        <div class="blockpostImg">
+                            <img src="https://corporx.themetags.com/assets/img/blog/1.jpg" alt="">
+                            <div class="sectionlabal">
+                                <a href="#">Business</a>
+                            </div>
+                        </div>
+                        <div class="blockpostInfo">
+                            <div class="blockpostInfo-2">
+                                <div class="blockpostInfo-3">
+                                    <div class="blockpostInfo-4">
+                                    <div class="blockpostImg-2">
+                                        <img src="https://corporx.themetags.com/assets/img/clients/client-5.jpg" alt="">
+                                    </div>
+                                    <p> Joe B</p>
+                                    </div>
+                                    <div class="blockpostInfo-2-1">
+                                        <i class="fa fa-calendar" aria-hidden="true"></i>
+                                        <p>15 March 2020</p>
+                                    </div>
+                                </div>
+                                <div class="blockposttext-2">
+                                <h1>We partnered up with Google</h1>
+                                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+                                <span id="spanReadmore ">Read more <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+                            </div>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+    </section>
+    <section id="sectionpost2">
+        <div class="sectionpost2-lg">
+            <div class="container">
+                <div class="sectiontitle-lg">
+                    <h1>What Clients Say About Us</h1>
+                    <p>Rapidiously morph transparent internal or "organic" sources whereas resource sucking e-business innovate compelling internal.</p>
+    
+                </div>
+                <div class="sectionpost2Wrapper">
+                    <div class="singlesectionpost2">
+                        <div class="sectionpost2Info">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            <p>
+                                Assertively procrastinate distributed relationships whereas 
+                                equity invested intellectual capital everything energistically underwhelm proactive.
+                            </p>
+                        </div>
+                        <div class="sectionpost2Info-2st">
+                            <div class="sectionpost2Img">
+                                <img src="https://corporx.themetags.com/assets/img/team/team-1.jpg" alt="">
+                            </div>
+                            <div class="section2postInf-tg">
+                                <h6>Pirtle Karol</h6>
+                                <small>Team Leader, ThemeTags</small>
+                            </div>
+                            <div class="sectionpostIcon2">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span>5.0 Out of 5</span>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <div class="singlesectionpost2">
+                        <div class="sectionpost2Info">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                            <p>
+                                Assertively procrastinate distributed relationships whereas 
+                                equity invested intellectual capital everything energistically underwhelm proactive.
+                            </p>
+                        </div>
+                        <div class="sectionpost2Info-2st">
+                            <div class="sectionpost2Img">
+                                <img src="https://corporx.themetags.com/assets/img/team/team-1.jpg" alt="">
+                            </div>
+                            <div class="section2postInf-tg">
+                                <h6>Pirtle Karol</h6>
+                                <small>Team Leader, ThemeTags</small>
+                            </div>
+                            <div class="sectionpostIcon2">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <span>5.0 Out of 5</span>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    
+
+
+
+
+
+
+
+                </div>
+                <div class="sectionborder">
+                    <span></span>
+                    <span></span>
+                </div>
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+    <section id="sectionRow">
+        <div class="sectionRow-lg">
+            <div class="container">
+                <div class="sectiontitle">
+                    <h1>Our Team</h1>
+                    <p>Dynamically pursue reliable convergence rather than 24/7 process improvements develop end-to-end customer service.</p>
+    
+                </div>
+                <div class="sectionRowWrapper">
+                    <div class="singlesectionRow">
+                        <div class="sectionRowImg">
+                            <img src="https://corporx.themetags.com/assets/img/team/team-6.jpg" alt="">
+                        </div>
+                        <div class="sectionRowInfo">
+                            <h1>John Q. Public</h1>
+                            <p id="pspan">Developer</p>
+                            <div class="sectionRowIcon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            </div>
+
+                            <p>
+                                Some quick example text to build on the
+                                 card title and make up the bulk 
+                                 of the card's content.
+                                </p>
+                                
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="singlesectionRow">
+                        <div class="sectionRowImg">
+                            <img src="https://corporx.themetags.com/assets/img/team/team-1.jpg" alt="">
+                        </div>
+                        <div class="sectionRowInfo">
+                            <h1>Madurai Mani Iyer</h1>
+                            <p id="pspan">Developer</p>
+                            <div class="sectionRowIcon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            </div>
+
+                            <p>
+                                Some quick example text to build on the
+                                 card title and make up the bulk 
+                                 of the card's content.
+                                </p>
+                                
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="singlesectionRow">
+                        <div class="sectionRowImg">
+                            <img src="https://corporx.themetags.com/assets/img/team/team-4.jpg" alt="">
+                        </div>
+                        <div class="sectionRowInfo">
+                            <h1>Maria J. Go</h1>
+                            <p id="pspan">Developer</p>
+                            <div class="sectionRowIcon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                                <i class="fa fa-dribbble" aria-hidden="true"></i>
+                            </div>
+
+                            <p>
+                                Some quick example text to build on the
+                                 card title and make up the bulk 
+                                 of the card's content.
+                                </p>
+                                
+                        </div>
+
+
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+            </div>
+        
+        </div>
+
+
+
+    </section> 
+    <section id="sectionEmail">
+        <div class="sectionEmail-lg">
+            <div class="container">
+                <div class="EmailWrapper">
+
+                    <div class="singleEmail">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <h1>Join our 3,45,441 subscribers</h1>
+                    <p>Get exclusive access to freebies, premium products and news.</p>
+                        <div class="inputtext">
+                            <h1><input type="text" placeholder="Enter your email address here"></h1>
+                        </div>
+                    <button id="subscriberBtn">Subscribe</button>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+        
+    </section>
+    <footer id="footer">
+        <div class="container">
+            <div class="fboxWrapper">
+                <div class="fbox-lg">
+                    <div class="fboxImg">
+                        <img src="https://corporx.themetags.com/assets/img/logo-white.png" alt="">
+                    </div>
+                    <p>Interactively unleash interactive best practices before technically sound portals.</p>
+                    <div class="ficons">
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        
+                    </div>
+
+                </div>
+                <div class="fbox">
+                    <h5>Company</h5>
+                    <ul class="links-vertical">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Customers</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+
+
+
+
+                </div>
+                <div class="fbox">
+                    <h5>Resources</h5>
+                    <ul class="links-vertical">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Live sessions</a></li>
+                        <li><a href="#">Open sources</a></li>
+                    </ul>
+
+
+
+
+                </div>
+                <div class="fbox">
+                    <h5>Support</h5>
+                    <ul class="links-vertical">
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Tech Support</a></li>
+                        <li><a href="#">Network Status</a></li>
+                        <li><a href="#">Contact Support</a></li>
+                    </ul>
+
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="copyrightContainer">
+            <div class="cantainer">
+                <div class="copyrighttext">Copyrights &copy; 2021. All rights reserved by <span>ThemeTags</span></div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </footer>
+
+
+
+
+</body>
+</html>
